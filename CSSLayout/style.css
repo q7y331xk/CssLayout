@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.item {
+  background-color: green;
+}
