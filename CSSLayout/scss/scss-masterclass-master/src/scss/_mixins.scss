@@ -1,0 +1,10 @@
+@mixin test($type) {
+  @if ($type == "t1") {
+    color: red;
+  } @else if ($type == "t2") {
+    color: blue;
+  } @else {
+    color: green;
+  }
+  background-color: grey;
+}

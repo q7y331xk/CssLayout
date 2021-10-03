@@ -1,0 +1,13 @@
+.div2,
+div {
+  display: block;
+  background-color: #eee8aa;
+  height: 100px;
+}
+div {
+  border: 1px solid #000;
+  width: 100px;
+}
+.div2 {
+  width: 150px;
+}
